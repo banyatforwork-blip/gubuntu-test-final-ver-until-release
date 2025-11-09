@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
             <h3 className="font-semibold text-lg mb-3 bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-gradient">
-              Gubuntu
+              Gnomix
             </h3>
             <p className="text-sm text-foreground/60">
               Ubuntu without Canonical bullshit. Pure stock GNOME experience.
@@ -56,10 +56,10 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-white/5 text-center text-sm text-foreground/60">
           <p className="flex items-center justify-center gap-2">
-            Made with <Heart className="w-4 h-4 text-accent glow-pink animate-pulse" /> by the Gubuntu community
+            Made with <Heart className="w-4 h-4 text-accent glow-pink animate-pulse" /> by the Gnomix community
           </p>
           <p className="mt-2">
-            © {new Date().getFullYear()} Gubuntu Project • Free and Open Source
+            © {new Date().getFullYear()} Gnomix Project • Free and Open Source
           </p>
         </div>
       </div>

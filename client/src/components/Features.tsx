@@ -31,7 +31,7 @@ export default function Features() {
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold mb-4">
             <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-gradient">
-              Why Gubuntu?
+              Why Gnomix?
             </span>
           </h2>
           <p className="text-lg text-foreground/80 max-w-2xl mx-auto">

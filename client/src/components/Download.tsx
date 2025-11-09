@@ -4,7 +4,7 @@ import { Card } from "@/components/ui/card";
 
 export default function Download() {
   const handleDownload = () => {
-    window.open("https://sourceforge.net/projects/gubuntu-desktop/files/latest/download", "_blank");
+    window.open("https://sourceforge.net/projects/gnomix-desktop/files/latest/download", "_blank");
   };
 
   return (
@@ -31,10 +31,10 @@ export default function Download() {
               <DownloadIcon className="w-12 h-12 text-primary" />
             </div>
             <h3 className="text-3xl font-bold mb-2" data-testid="text-version">
-              Gubuntu Beta 2025.11.05
+              Gnomix Beta 2025.11.05
             </h3>
             <p className="text-foreground/60 font-mono text-sm">
-              gubuntu-beta-2025.11.05-desktop-amd64.iso
+              gnomix-beta-2025.11.05-desktop-amd64.iso
             </p>
           </div>
 

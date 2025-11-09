@@ -30,7 +30,7 @@ export default function Hero() {
         <div className="mb-8 inline-block animate-float">
           <img 
             src={gubuntuIcon} 
-            alt="Gubuntu Logo" 
+            alt="Gnomix Logo" 
             className="w-32 h-32 mx-auto glow-purple animate-glow-pulse rounded-2xl"
             data-testid="img-logo"
           />
@@ -62,7 +62,7 @@ export default function Hero() {
             data-testid="button-download-hero"
           >
             <Download className="w-5 h-5 mr-2" />
-            Download Gubuntu
+            Download Gnomix
           </Button>
           
           <Button 

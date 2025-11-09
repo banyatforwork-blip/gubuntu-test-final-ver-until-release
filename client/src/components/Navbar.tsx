@@ -21,11 +21,11 @@ export default function Navbar() {
           <div className="flex items-center gap-3">
             <img 
               src={gubuntuIcon} 
-              alt="Gubuntu Logo" 
+              alt="Gnomix Logo" 
               className="w-10 h-10 glow-purple rounded-md"
             />
             <span className="text-xl font-bold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-gradient">
-              Gubuntu
+              Gnomix
             </span>
           </div>
 

@@ -12,7 +12,7 @@ export default function About() {
             </span>
           </h2>
           <p className="text-lg text-foreground/80 max-w-3xl mx-auto">
-            Gubuntu is built on the belief that users should have the freedom to experience Ubuntu 
+            Gnomix is built on the belief that users should have the freedom to experience Ubuntu 
             with the desktop environment they choose, without corporate modifications
           </p>
         </div>
@@ -79,7 +79,7 @@ export default function About() {
           </div>
           <h3 className="text-2xl font-semibold mb-3">Join the Community</h3>
           <p className="text-foreground/80 mb-6 max-w-2xl mx-auto">
-            Gubuntu is in active beta development. We welcome feedback, bug reports, and contributions 
+            Gnomix is in active beta development. We welcome feedback, bug reports, and contributions 
             from users who share our vision for a pure GNOME experience on Ubuntu.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
