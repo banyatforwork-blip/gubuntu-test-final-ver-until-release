@@ -4,7 +4,7 @@ import { Card } from "@/components/ui/card";
 
 export default function Download() {
   const handleDownload = () => {
-    window.open("https://sourceforge.net/projects/gnomix-desktop/files/latest/download", "_blank");
+    window.open("https://sourceforge.net/projects/gubuntu-desktop/files/latest/download", "_blank");
   };
 
   return (
