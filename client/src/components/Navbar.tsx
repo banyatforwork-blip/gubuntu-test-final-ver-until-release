@@ -22,9 +22,9 @@ export default function Navbar() {
             <img 
               src={gubuntuIcon} 
               alt="Gubuntu Logo" 
-              className="w-10 h-10 glow-cyan rounded-md"
+              className="w-10 h-10 glow-purple rounded-md"
             />
-            <span className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+            <span className="text-xl font-bold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-gradient">
               Gubuntu
             </span>
           </div>
@@ -53,7 +53,7 @@ export default function Navbar() {
             </button>
             <Button 
               onClick={() => scrollToSection("download")}
-              className="glow-cyan"
+              className="glow-purple"
               data-testid="button-download-nav"
             >
               <Download className="w-4 h-4 mr-2" />
@@ -101,7 +101,7 @@ export default function Navbar() {
             </button>
             <Button 
               onClick={() => scrollToSection("download")}
-              className="w-full glow-cyan"
+              className="w-full glow-purple"
               data-testid="button-download-mobile"
             >
               <Download className="w-4 h-4 mr-2" />

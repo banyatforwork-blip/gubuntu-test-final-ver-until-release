@@ -7,20 +7,20 @@ export default function About() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-gradient">
               The Philosophy
             </span>
           </h2>
-          <p className="text-lg text-foreground/70 max-w-3xl mx-auto">
+          <p className="text-lg text-foreground/80 max-w-3xl mx-auto">
             Gubuntu is built on the belief that users should have the freedom to experience Ubuntu 
             with the desktop environment they choose, without corporate modifications
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
-          <Card className="p-8 glass-strong border border-white/10">
+          <Card className="p-8 glass-strong border-primary/30 hover:border-primary/50 transition-colors">
             <h3 className="text-2xl font-semibold mb-4 flex items-center gap-3">
-              <Heart className="w-6 h-6 text-primary glow-cyan" />
+              <Heart className="w-6 h-6 text-primary glow-purple" />
               What We Stand For
             </h3>
             <ul className="space-y-3 text-foreground/80">
@@ -43,9 +43,9 @@ export default function About() {
             </ul>
           </Card>
 
-          <Card className="p-8 glass-strong border border-white/10">
+          <Card className="p-8 glass-strong border-accent/30 hover:border-accent/50 transition-colors">
             <h3 className="text-2xl font-semibold mb-4 flex items-center gap-3">
-              <Code className="w-6 h-6 text-accent glow-purple" />
+              <Code className="w-6 h-6 text-accent glow-pink" />
               What We Remove
             </h3>
             <ul className="space-y-3 text-foreground/80">
@@ -69,10 +69,10 @@ export default function About() {
           </Card>
         </div>
 
-        <Card className="p-8 glass text-center border border-white/10">
-          <Users className="w-12 h-12 text-primary glow-cyan mx-auto mb-4" />
+        <Card className="p-8 glass text-center border-primary/30">
+          <Users className="w-12 h-12 text-primary glow-purple mx-auto mb-4" />
           <h3 className="text-2xl font-semibold mb-3">Join the Community</h3>
-          <p className="text-foreground/70 mb-6 max-w-2xl mx-auto">
+          <p className="text-foreground/80 mb-6 max-w-2xl mx-auto">
             Gubuntu is in active beta development. We welcome feedback, bug reports, and contributions 
             from users who share our vision for a pure GNOME experience on Ubuntu.
           </p>

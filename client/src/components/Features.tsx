@@ -30,11 +30,11 @@ export default function Features() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-gradient">
               Why Gubuntu?
             </span>
           </h2>
-          <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
+          <p className="text-lg text-foreground/80 max-w-2xl mx-auto">
             A no-nonsense Linux distribution that respects your choice for a pure GNOME experience
           </p>
         </div>

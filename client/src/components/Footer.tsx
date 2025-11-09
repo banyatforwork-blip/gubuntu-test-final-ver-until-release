@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="font-semibold text-lg mb-3 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+            <h3 className="font-semibold text-lg mb-3 bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-gradient">
               Gubuntu
             </h3>
             <p className="text-sm text-foreground/60">
@@ -48,15 +48,15 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-3">Status</h4>
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full glass text-sm">
-              <span className="w-2 h-2 rounded-full bg-primary animate-pulse glow-cyan" />
-              <span className="text-foreground/70">Active Beta Development</span>
+              <span className="w-2 h-2 rounded-full bg-primary animate-pulse glow-purple" />
+              <span className="text-foreground/80">Active Beta Development</span>
             </div>
           </div>
         </div>
 
-        <div className="pt-8 border-t border-white/5 text-center text-sm text-foreground/50">
+        <div className="pt-8 border-t border-white/5 text-center text-sm text-foreground/60">
           <p className="flex items-center justify-center gap-2">
-            Made with <Heart className="w-4 h-4 text-primary glow-cyan" /> by the Gubuntu community
+            Made with <Heart className="w-4 h-4 text-accent glow-pink animate-pulse" /> by the Gubuntu community
           </p>
           <p className="mt-2">
             © {new Date().getFullYear()} Gubuntu Project • Free and Open Source
