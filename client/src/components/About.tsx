@@ -20,7 +20,9 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
           <Card className="p-8 glass-strong border-primary/30 hover:border-primary/50 transition-colors">
             <h3 className="text-2xl font-semibold mb-4 flex items-center gap-3">
-              <Heart className="w-6 h-6 text-primary glow-purple" />
+              <div className="p-2 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 glow-purple">
+                <Heart className="w-6 h-6 text-primary" />
+              </div>
               What We Stand For
             </h3>
             <ul className="space-y-3 text-foreground/80">
@@ -45,7 +47,9 @@ export default function About() {
 
           <Card className="p-8 glass-strong border-accent/30 hover:border-accent/50 transition-colors">
             <h3 className="text-2xl font-semibold mb-4 flex items-center gap-3">
-              <Code className="w-6 h-6 text-accent glow-pink" />
+              <div className="p-2 rounded-full bg-gradient-to-br from-accent/20 to-primary/20 glow-pink">
+                <Code className="w-6 h-6 text-accent" />
+              </div>
               What We Remove
             </h3>
             <ul className="space-y-3 text-foreground/80">
@@ -70,7 +74,9 @@ export default function About() {
         </div>
 
         <Card className="p-8 glass text-center border-primary/30">
-          <Users className="w-12 h-12 text-primary glow-purple mx-auto mb-4" />
+          <div className="inline-block p-3 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 glow-purple mx-auto mb-4">
+            <Users className="w-12 h-12 text-primary" />
+          </div>
           <h3 className="text-2xl font-semibold mb-3">Join the Community</h3>
           <p className="text-foreground/80 mb-6 max-w-2xl mx-auto">
             Gubuntu is in active beta development. We welcome feedback, bug reports, and contributions 
