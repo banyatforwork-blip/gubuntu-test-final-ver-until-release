@@ -4,6 +4,9 @@ import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 
 export default defineConfig({
+  // 🚨 ADD THIS LINE TO FIX GITHUB PAGES PATHS 🚨
+  base: '/gubuntu-test-final-ver-until-release/',
+
   plugins: [
     react(),
     runtimeErrorOverlay(),
