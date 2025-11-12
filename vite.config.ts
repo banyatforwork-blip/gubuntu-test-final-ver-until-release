@@ -5,7 +5,7 @@ import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 
 export default defineConfig({
   // 🚨 ADD THIS LINE TO FIX GITHUB PAGES PATHS 🚨
-  base: './',
+  base: '/',
 
   plugins: [
     react(),
