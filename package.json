@@ -11,7 +11,7 @@
     "check": "tsc",
     "db:push": "drizzle-kit push",
     "predeploy": "vite build",
-    "deploy": "gh-pages -d dist/public -r https://banyatforwork-blip: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@github.com/banyatforwork-blip/gubuntu-test-final-ver-until-release.git"
+    "deploy": "gh-pages -d dist/public -r https://banyatforwork-blip:temp-pat@github.com/banyatforwork-blip/gubuntu-test-final-ver-until-release.git"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
