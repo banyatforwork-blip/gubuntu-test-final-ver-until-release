@@ -29,9 +29,11 @@ app.use((req, res, next) => {
 
   res.on("finish", () => {
     const duration = Date.now() - start;
-    if (path.startsWith("/api")) {
+    // --- START LOGGING CHANGE ---
+    // Log API routes OR the specific keep-alive path
+    if (path.startsWith("/api") || path === "/keep-alive") {
       let logLine = `${req.method} ${path} ${res.statusCode} in ${duration}ms`;
-      if (capturedJsonResponse) {
+      if (path.startsWith("/api") && capturedJsonResponse) {
         logLine += ` :: ${JSON.stringify(capturedJsonResponse)}`;
       }
 
@@ -41,6 +43,7 @@ app.use((req, res, next) => {
 
       log(logLine);
     }
+    // --- END LOGGING CHANGE ---
   });
 
   next();
