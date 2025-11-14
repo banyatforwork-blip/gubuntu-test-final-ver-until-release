@@ -42,7 +42,7 @@ export default function Hero() {
           </span>
           <br />
           <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-gradient">
-            Canonical Bullshit
+            Canonical ~Bullshit~
           </span>
         </h1>
 
