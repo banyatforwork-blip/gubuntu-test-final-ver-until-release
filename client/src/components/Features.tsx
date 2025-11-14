@@ -11,12 +11,12 @@ export default function Features() {
     {
       icon: Ban,
       title: "Canonical Free",
-      description: "Completely free from Canonical's ecosystem. No Snap packages, no telemetry, no corporate bloat - just pure Ubuntu base."
+      description: "Completely free from Snap's ecosystem. No Snap packages, no telemetry, no corporate bloat - just pure Ubuntu base."
     },
     {
       icon: Rocket,
       title: "Actively Developing",
-      description: "Currently in active development and testing phase. Join our beta program and help shape the future of Gubuntu."
+      description: "Currently in active development and testing phase. Join our beta program and help shape the future of Gnomix."
     },
     {
       icon: Sparkles,
