@@ -59,7 +59,7 @@ export default function Footer() {
             Made with <Heart className="w-4 h-4 text-accent glow-pink animate-pulse" /> by the Gnomix community
           </p>
           <p className="mt-2">
-            © {new Date().getFullYear()} Gnomix Project • Free and Open Source
+            © {new Date().getFullYear()} Gnomix Project • Free and Open Source • Website made by @chichbo
           </p>
         </div>
       </div>
