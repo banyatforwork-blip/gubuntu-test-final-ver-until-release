@@ -51,7 +51,7 @@ export default function About() {
                 <Code className="w-6 h-6 text-accent" />
               </div>
               What We Remove
-            </h3>
+              </h3>
             <ul className="space-y-3 text-foreground/80">
               <li className="flex items-start gap-3">
                 <span className="text-destructive font-bold">✗</span>
@@ -84,7 +84,7 @@ export default function About() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
-              href="https://discord.gg/xSbDv3Yv"
+              href="https://discord.gg/RHS3NptNpc"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:text-primary/80 transition-colors font-medium"
